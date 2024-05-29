@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap');
+
+*{
+    margin:0;
+    box-sizing:border-box;
+    font-family: "Cedarville Cursive", cursive;
+    font-style: normal;
+}
+.navbar{
+    background-color: #dc0a2d;
+}
+.nav-link{
+    color:white;
+    font-size: 25px;
+}     
+.bgimg{
+    background-image: url("https://img.freepik.com/free-photo/cute-flowers-crunchy-cone_23-2147766656.jpg?t=st=1712834310~exp=1712837910~hmac=73c658f68b4e3302163f2e172d4a03cfc5dd452f290cffd71e7642140f45a0ff&w=996");
+    width:100vw;
+    height:70vh;
+    background-size: cover;
+    background-position: center;
+    margin-top: 7.8%;
+}
+.head{
+    font-size: 70px;
+    color:#dc0a2d;
+    margin-top: 5%;
+    text-shadow: 2px 3px 1px grey;
+}
+.btns{
+    background-color: transparent;
+    color: green;
+    border:1px solid green;
+    width: 40%;
+    border-radius: 25px;
+    margin-top: 3%;
+    padding: 0.5%;
+    font-size: 30px;
+}
+.btns:hover{
+    background-color: green;
+    color:white;
+}
+/* about */
+.ca-img{
+    aspect-ratio: 3/2;
+    width:100%;
+}
+.card-title{
+    text-align: center;
+    font-size:20px;
+    color:#dc0a2d;
+}
+/* payment */
+.form-label{
+    color:#dc0a2d;
+    font-size: 20px;
+    font-weight: bold;
+}
+/* contact */
+.bgcontact{
+    background-color: #dc0a2d;
+    width: 100vw;
+}
+.formy label{
+    font-size: 25px;
+    color: white;
+    font-weight: bold;
+}
+.formy input[type="text"]{
+    border: none;
+    box-shadow: 2px 2px 2px pink;
+    border-radius: 25px;
+    padding: 0.8%;
+    width: 90%;
+    margin-bottom: 6%;
+}
+.formy textarea{
+    width :90%;
+    border: none;
+    box-shadow: 2px 2px 2px pink;
+    border-radius: 25px;
+}
+.formy{
+    display: flex;
+    flex-direction: column;
+}
+.cbutton{
+    background-color: white;
+    color: #dc0a2d;
+    font-size: 20px;
+    width: 60%;
+    border: none;
+    border-radius: 30px;
+    
+}
+.cbutton:hover{
+    background-color: #dc0a2d;
+    color: white;
+    border: 1px solid white;
+    transform: scale(1.2);
+}
+/* footer */
+.icons{
+    margin: 2%;
+    font-size: 40px;
+}
+.icons .fa-brand{
+    
+    padding-left: 1%;
+    /* border: 3px solid white; */
+}
+.fa-instagram{
+    color: #d84961;
+    margin-left: -3%;
+}
+.fa-youtube{
+    color: red;
+}
+.fa-linkedin{
+    color: #0679a7;
+}
+.fa-whatsapp{
+    color: green;
+}
